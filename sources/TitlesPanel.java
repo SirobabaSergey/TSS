@@ -22,6 +22,11 @@ public class TitlesPanel extends JPanel implements ActionListener
     private int start_angle;
     private int shape;
     
+    /**
+      * Constructor receiving two params: type of shape and its kind.
+      * @param _shape type of shape
+      * @see ShapeFactory
+    */
     public TitlesPanel(final int _shape) {
         this.start_angle = 0;
         this.is_done = true;
